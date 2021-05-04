@@ -1,0 +1,99 @@
+body {
+  color: #333;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #fde7e7;
+  padding: 32px 0;
+}
+
+.container {
+  /* background-color: pink; */
+  width: 400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  /* background-color: aqua; */
+}
+
+.icon img {
+ border-radius: 50%;
+ border-width: 4px;
+ border-style: solid;
+ border-color: white;
+}
+
+.info {
+  /* background-color: brown; */
+  margin-left: 32px;
+}
+
+.info h1 {
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0;
+}
+
+.info p {
+  margin: 0 0 16px 0;
+}
+
+.info ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.info ul li {
+ margin: 0 8px 0 0;
+}
+
+.favorite {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.favorite > h1 {
+  margin: 60px 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.favorite > section {
+  margin-bottom: 60px;
+}
+
+.favorite > section > h1 {
+  font-weight: normal;
+}
+
+.favorite p {
+  line-height: 1.8;
+} 
+
+.favorite img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 0%;
+}
+
+footer p{
+  margin: 0;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  padding: 20px 0 40px;
+  background-color: #fde7e7;
+  color: gray;
+}
